@@ -1,0 +1,67 @@
+Dish,Cuisine,Part Of Meal,Main Ingredient,Recipe,Image
+Almond pate,Vegetarian,Appetizer,Almond,almond_pate.txt,almond_pate.png
+Sheila's Mushroom Appetizers,Vegetarian,Appetizer,Mushroom,sheila_mushroom.txt,sheila_mushroom.png
+Crab Dip,Seafood,Appetizer,Crab,crab_dip.txt,crab_dip.png
+Mushroom Turnover,Vegetarian,Appetizer,Mushroom,mushroom_turnover.txt,mushroom_turnover.png
+Liptauer,Hungarian,Appetizer,Cream Cheese,liptauer.txt,liptauer.png
+Tomato Tart,French,Appetizer,Tomato,tomato_tart.txt,tomato_tart.png
+Mushroom Quiche,French,Appetizer,Mushroom,mushroom_quiche.txt,mushroom_quiche.png
+Squid Salad,Thai,Salad,Squid,squid_salad.txt,squid_salad.png
+Tex-Mex Dip,Mexican,Appetizer,Avocado,tex_mex_dip.txt,tex_mex_dip.png
+Fran's Mexican Dip,Mexican,Appetizer,Beans,fran_mexican.txt,fran_mexican.png
+Spanakopita,Greek,Appetizer,Spinach,spanakopita.txt,spanakopita.png
+Berenjena con Queso,Puerto Rican,Side Dish,Eggplant,berenjena.txt,berenjena.png
+Andy's G'Mish,Mexican,Appetizer,Black beans,andy_gmish.txt,andy_gmish.png
+Mom's Sardine Spread,American,Appetizer,Sardine,sardine.txt,sardine.png
+Mom's Tuna Spread,American,Appetizer,Tuna,tuna.txt,tuna.png
+Chicken Sate,Indonesian,Appetizer,Chicken,sate.txt,sate.png
+Ilona Crab/Shrimp Dip,Hungarian,Appetizer,Crab,Ilona_crab.txt,Ilona_crab.png
+Cornish Pasty,English,Appetizer,Steak,cornish.txt,cornish.png
+Cayenne Shortbread,English,Appetizer,Cheese,cayenne.txt,cayenne.png
+Artichoke Frittata,Italian,Appetizer,Egg,frittata.txt,frittata.png
+Hummus,Middle Eastern,Appetizer,Chickpea,hummus.txt,hummus.png
+Tess' Brie Appetizers,French,Appetizer,Brie,brie.txt,brie.png
+Tess' Mushroom Puff Pastries,French,Appetizer,Puff pastry,mushpuff.txt,mushpuff.png
+Tess' Chicken Curry,Indian,Appetizer,Chicken,chickcurry.txt,chickcurry.png
+Feta Appetizers,Greek,Appetizer,Feta,feta.txt,feta.png
+Jalapeno Cheddar Dip,Mexican,Appetizer,Cheese,jalapeno.txt,jalapeno.png
+Bagel Chips,Middle Eastern,Appetizer,Bagel,bagel.txt,bagel.png
+Pizza,Italian,Main,Dough,pizza.txt,pizza.png
+Double Crusted Spinach Sausage Pizza,Italian,Main,Dough,double.txt,double.png
+Smoked Salmon Spread,American,Appetizer,Salmon,smoked.txt,smoked.png
+Cheese Bacon Puffs,American,Appetizer,Cheese,cheesebacon.txt,cheesebacon.png
+Tonie Guacamole,Mexican,Appetizer,Avocado,guacamole.txt,guacamole.png
+Quiche Lorraine,French,Main,Egg,lorraine.txt,lorraine.png
+Cream of Mushroom ,American,Soup,Mushroom,cream_mushroom.txt,cream_mushroom.png
+Thai Tom Yum Soup,Thai,Soup,Stock,tomyum.txt,tomyum.png
+Chinese Hot and Sour Soup,Chinese,Soup,Stock,hotsour.txt,hotsour.png
+Geezer's Onion Soup,French,Soup,Onion,onionsoup.txt,onionsoup.png
+Pea Soup,American,Soup,Split Pea,peasoup.txt,peasoup.png
+Cabbage Soup,American,Soup,Cabbage,cabbagesoup.txt,cabbagesoup.png
+Doug's Bean Soup,American,Soup,Beans,dougbean.txt,dougbean.png
+Cream of Spinach Soup,American,Soup,Spinach,cream_spinach.txt,cream_spinach.png
+Blender Mayonnaise,French,Sauce,Egg,b_mayo.txt,b_mayo.png
+Green Goddess Dressing,American,Salad,Tarragon,greengoddess.txt,greengoddess.png
+Hollandaise Sauce,French,Sauce,Egg,hollandaise.txt,hollandaise.png
+Special Marinade,American,Marinade,Oil,marinade.txt,marinade.png
+Vinaigrette,French,Salad,Oil,vinaigrette.txt,vinaigrette.png
+Dipping Sauce,Chinese,Sauce,Soy sauce,dipping.txt,dipping.png
+Geezer's Caesar Dressing,American,Salad,Anchovy,caesar.txt,caesar.png
+Geezer's Vinaigrette,French,Salad,Oil,g_vinaigrette.txt,g_vinaigrette.png
+Tomato Sauce,Italian,Sauce,Tomato,tomato_sauce.txt,tomato_sauce.png
+Tomato Chutney,Indian,Sauce,Tomato,tomato_chutney.txt,tomato_chutney.png
+Thousand Island Dressing,American,Salad,Mayonanaise,thousand.txt,thousand.png
+Mayonnaise,French,Sauce,Egg,mayo.txt,mayo.png
+Creamy Louisiana Marinade,American,Marinade,Mayonanaise,louisiana.txt,louisiana.png
+Honey Mustard Glaze,American,Sauce,Honey,honey_mustard.txt,honey_mustard.png
+Salmon Marinade,American,Marinade,Oil,salmon_marinade.txt,salmon_marinade.png
+Teriyaki Marinade,Japanese,Marinade,Soy sauce,teriyaki.txt,teriyaki.png
+Texas Marinade,American,Marinade,Beer,texas.txt,texas.png
+Sesame Butter Marinade,American,Marinade,Butter,sesame_butter.txt,sesame_butter.png
+Sesame Orange Marinade,American,Marinade,Orange Juice,sesame_orange.txt,sesame_orange.png
+Tahini Lemon Marinade,Middle Eastern,Marinade,Tahini,tahini_lemon.txt,tahini_lemon.png
+Barbecue Sauce,American,Sauce,Oil,bbq_sauce.txt,bbq_sauce.png
+Shrimp Marinade,American,Marinade,Oil,shrimp_marinade.txt,shrimp_marinade.png
+Steak Marinade,American,Marinade,Lemon Juice,steak_marinade.txt,steak_marinade.png
+Beef Marinade,American,Marinade,Soy sauce,beef_marinade.txt,beef_marinade.png
+Wilted Spinach Salad,American,Salad,Spinach,wilted_spinach.txt,wilted_spinach.png
