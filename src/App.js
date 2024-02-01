@@ -9,20 +9,50 @@ import Modal from "react-bootstrap/Modal";
 import { useState } from "react";
 import Markdown from "react-markdown";
 
+async function fetchModalData(file) {
+  const response = await fetch(file);
+  const text = await response.text();
+  return text;
+}
+
 function Food(props){
   const food = props.food
+  const [show, setShow] = useState(false);
+  const [data, setData] = useState(null);
+  const handleClose = () => {
+    setShow(false);
+  };
+  const handleShow = async () => {
+    setShow(true);
+    const fetchData = await fetchModalData(`recipes/${food.Recipe}`);
+    setData(fetchData);
+    console.log(fetchData)
+  };
+  //console.log(data)
   return(
-    <div style={{margin: "10px",}}>
+    <div key={food.Dish} style={{margin: "10px",}} >
          <Card style={{ width: "18rem" }}>
         <Card.Img
           variant="top"
-          src={`images/${food.Dish}.png`}
+          src={`images/${food.Image}`}
           alt={food.Dish}
         />
         <Card.Body>
           <Card.Title>{food.Dish}</Card.Title>
+          <Button variant="primary" onClick={handleShow}>
+          Recipe
+          </Button>
         </Card.Body>
       </Card>
+      <Modal show={show} onHide={handleClose}>
+        <Modal.Header closeButton>
+          <Modal.Title>{food.Dish}</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <Markdown>{data}</Markdown>
+        </Modal.Body>
+      </Modal>
+
     </div>
   )
 }
@@ -51,6 +81,7 @@ class App extends React.Component{
     const foods = data.map((food)=>{
       return<Food food={food} key={food.Dish} />
     })
+
     return(
       <div>
         {/* <h1>rrrrrrrrrrrrrr</h1>
@@ -65,6 +96,7 @@ class App extends React.Component{
             margin: "10px auto",
             flexWrap: "wrap",
             justifyContent: "center",
+            
           }}
         >
           {foods}
