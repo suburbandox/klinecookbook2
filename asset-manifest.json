@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/klinecookbook2/static/css/main.5eaf7c2d.css",
+    "main.js": "/klinecookbook2/static/js/main.5e2a7edd.js",
+    "static/js/787.4522fc19.chunk.js": "/klinecookbook2/static/js/787.4522fc19.chunk.js",
+    "static/media/foodlist2.csv": "/klinecookbook2/static/media/foodlist2.73b0f8118aba0e9ac668.csv",
+    "index.html": "/klinecookbook2/index.html",
+    "main.5eaf7c2d.css.map": "/klinecookbook2/static/css/main.5eaf7c2d.css.map",
+    "main.5e2a7edd.js.map": "/klinecookbook2/static/js/main.5e2a7edd.js.map",
+    "787.4522fc19.chunk.js.map": "/klinecookbook2/static/js/787.4522fc19.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5eaf7c2d.css",
+    "static/js/main.5e2a7edd.js"
+  ]
+}
